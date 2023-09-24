@@ -1,1 +1,62 @@
-/*  your css code here. If applicable */
+body {
+  background-color: rgb(204, 204, 204);
+}
+* {
+  font-family: arial;
+  font-weight: 750;
+  margin: 0px;
+  padding: 0px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#box-1 {
+  height: 310px;
+  width: 1250px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+  padding: 14px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+#box-2 {
+  height: 600px;
+  width: 610px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.player_one,
+.player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+video {
+  width: 600px;
+}
+p {
+  padding: 10px;
+}
+audio {
+  padding-left: 10px;
+  width: 560px;
+}
